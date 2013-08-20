@@ -11,6 +11,10 @@ EC2 Backup and Restore
 This page describes how to backup, verify, and restore a MongoDB running
 on EC2 using `EBS Snapshots <http://aws.amazon.com/ebs/>`_.
 
+.. note::
+
+   .. include:: /includes/fact-mms-backup-service-notice.rst
+
 How you backup MongoDB will depend on whether you are using the
 ``--journal`` option, which is available in versions 1.8 and above.
 
